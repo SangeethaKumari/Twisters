@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TWISTER SPORTS CENTER</string>
+    <string name="caption_twisters">Raise a healthy and active child through sports.</string>
+    <string name="quote_twisters"></string>
+    <string name="activities_heading">SELECT AN ACTIVITY </string>
+    <string name="address">1165 N Fair Oaks Ave, Sunnyvale, CA 94089</string>
+    <string name="activityA">GYMNASTICS</string>
+    <string name="activityB">TAE KWON DO</string>
+    <string name="activityC">DANCE</string>
+    <string name="activityD">CAMP</string>
+    <string name="website">http://twisterssportscenter.com/</string>
+    <string name="phone">PHONE : 408-786-9090</string>
+
+</resources>

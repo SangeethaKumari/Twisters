@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <!-- The image is from the facebook page of the business -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_height"
+            android:layout_margin="@dimen/margin_general"
+            android:background="@drawable/twistersimage" />
+
+        <TextView
+            android:id="@+id/selectActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_general"
+            android:text="@string/activities_heading"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/button_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linearlayout_height"
+            android:layout_marginLeft="@dimen/linearlayout_margin_left"
+            android:layout_marginRight="@dimen/linearlayout_margin_right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonA"
+                style="@style/CustomButtonAStyle"
+                android:text="@string/activityA" />
+
+            <Button
+                android:id="@+id/buttonB"
+                style="@style/CustomButtonBStyle"
+                android:text="@string/activityB" />
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linearlayout_height"
+            android:layout_marginLeft="@dimen/linearlayout_margin_left"
+            android:layout_marginRight="@dimen/linearlayout_margin_right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonC"
+                style="@style/CustomButtonBStyle"
+                android:text="@string/activityC" />
+
+            <Button
+                android:id="@+id/buttonD"
+                style="@style/CustomButtonAStyle"
+                android:text="@string/activityD" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_general"
+            android:text="@string/website"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/button_textSize" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_general"
+            android:text="@string/phone"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/button_textSize" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/address"
+            android:textColor="@color/textViewColor"
+            android:textSize="@dimen/button_textSize" />
+    </LinearLayout>
+</ScrollView>

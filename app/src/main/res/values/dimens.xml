@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_twisters">16dp</dimen>
+    <dimen name="margin_bottom_twisters">16dp</dimen>
+    <dimen name="margin_left_twisters">16dp</dimen>
+    <dimen name="margin_right_twisters">16dp</dimen>
+    <dimen name="margin_general">16dp</dimen>
+    <dimen name="linearlayout_margin_left">16dp</dimen>
+    <dimen name="linearlayout_margin_right">16dp</dimen>
+    <dimen name="linearlayout_height">72dp</dimen>
+
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="button_textSize">16sp</dimen>
+
+    <dimen name="padding_bottom_twisters">16dp</dimen>
+    <dimen name="caption_24">24sp</dimen>
+    <dimen name="quotes_twisters">16sp</dimen>
+    <dimen name="detail_twisters">16sp</dimen>
+
+</resources>
